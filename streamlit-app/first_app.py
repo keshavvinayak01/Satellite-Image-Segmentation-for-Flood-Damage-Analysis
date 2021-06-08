@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 import numpy as np
 import pandas as pd
-from .patch_inference import get_prediction, get_model
+from patch_inference import get_prediction, get_model
 import time
 # Call get_model in a cached manner before proceeding to the prediction
 
